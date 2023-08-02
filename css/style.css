@@ -1,0 +1,231 @@
+body {
+  font-family: "Roboto Slab", sans-serif;
+  background-color: #eee7df;
+}
+.top-nav .navbar {
+  background: #fff;
+}
+.navbar {
+  background-color: #fff;
+  border: none;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar p {
+  text-align: right;
+}
+.navbar-nav .logo {
+  /*proximamente*/
+}
+.row {
+  align-items: center;
+}
+button.lotes.btn {
+  background: #f3bb38;
+  color: #fff;
+  border-radius: 0;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+button.lotes.btn i {
+  margin-right: 5px;
+}
+button.lotes.btn:hover {
+  background: #fff;
+  color: #444545;
+}
+
+.info-empresa {
+  background: #f3bb38;
+  color: #fff;
+  padding: 15px 0;
+}
+.info-empresa a {
+  color: #fff;
+}
+.info-empresa a:hover {
+  text-decoration: none;
+  color: #434343;
+}
+footer p {
+  font-size: 13px;
+}
+
+button.acept_oferta.btn.navbar-btn {
+  float: right;
+  margin: 0;
+  background: #333;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 0;
+}
+button.acept_oferta.btn.navbar-btn:hover {
+  background: #f3bb38;
+}
+.info-lote {
+  padding: 15px 0;
+}
+.numero_lote {
+  color: #333;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.table > thead > tr > th {
+  border-bottom: 0;
+}
+.ficha-remate {
+  padding: 0 0 30px 0;
+}
+.ficha-remate img {
+}
+.ficha-remate h1 {
+  font-size: 3.7em;
+  color: #444;
+  font-weight: 600;
+}
+.ficha-remate h3 {
+  font-size: 2em;
+  color: #666;
+  font-weight: 600;
+}
+.ficha-remate h4 {
+  margin-top: 25px;
+  font-size: 1.3em;
+  color: #888;
+  line-height: 25px;
+}
+
+.box-lote {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 8%;
+  border: 1px solid #ccc;
+}
+.box-lote .card-image {
+  position: relative;
+  margin: 20px 0 10px;
+}
+.box-lote .card-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.box-lote h3 a {
+  font-size: 0.9em;
+  color: #000;
+}
+.box-lote span {
+  font-size: 1em;
+  color: #555;
+}
+.box-lote h4 {
+  font-size: 1.2em;
+  color: #333;
+}
+.box-lote p {
+  font-size: 0.9em;
+  color: #555;
+}
+.box-lote .txt p {
+  color: #000;
+}
+.box-lote hr {
+  margin: 10px;
+}
+.detalle-remate {
+  padding: 10px 0 40px 0;
+}
+.lote i {
+  font-size: 30px;
+  color: #f3bb38;
+  margin-right: 10px;
+  float: left;
+  margin-top: 10px;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+footer {
+  min-height: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .btn {
+    padding: 6px 10px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .navbar .navbar-nav li a {
+    font-size: 12px;
+  }
+  .row.iconos .linea {
+    border: none;
+  }
+
+  .container {
+  }
+}
+@media screen and (max-width: 767px) {
+  button.descargar.btn.navbar-btn {
+    margin-top: 15px;
+  }
+  button.acept_oferta.btn.navbar-btn {
+    float: right;
+  }
+  .navbar {
+    background-color: #333;
+    border: none;
+  }
+  .navbar-nav {
+    margin: 7.5px 0;
+  }
+  .navbar-nav {
+    margin-top: 0;
+    margin-left: 8px;
+  }
+  .navbar-nav > li:first-child {
+    margin-left: 0;
+  }
+  .navbar-nav .logo {
+    display: none;
+  }
+  .navbar-btn {
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 765px) {
+  .ficha-remate h1 {
+    font-size: 3em;
+  }
+  .ficha-remate .fecha-remate {
+    font-size: 1.5em;
+  }
+  p {
+    margin: 0 0 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ficha-remate h1 {
+    font-size: 2em;
+  }
+  .ficha-remate .fecha-remate {
+    font-size: 1.2em;
+  }
+  .ficha-remate p {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 471px) {
+  .btn {
+    padding: 4px 8px;
+  }
+}
